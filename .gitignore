@@ -1,0 +1,9 @@
+.env
+.github
+.vscode
+.idea
+out
+debate_log.txt
+*.txt
+target
+tst

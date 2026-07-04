@@ -1,0 +1,2 @@
+#!/bin/bash
+cd /Users/dmeverly/dev/debate ; /usr/bin/env /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java @/var/folders/0x/j5jwpvl1475_vvcscgk1mzdh0000gn/T/cp_zd6mxjvzzc95fh5bgwf0hckx.argfile MasterControl
