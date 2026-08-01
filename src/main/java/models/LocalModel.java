@@ -2,12 +2,13 @@ package models;
 
 import types.SynapSysMessage;
 import util.Logger;
+import orchestration.*;
 
 public class LocalModel extends Model{
     private final int port;
 
-    public LocalModel(String name, String provider, String model, String goal, int port) {
-        super(name, provider, model, goal);
+    public LocalModel(EventBus eventBus, String name, String provider, String model, String goal, int port) {
+        super(eventBus, name, provider, model, goal);
         this.port = port;
     }
 
