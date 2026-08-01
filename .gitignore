@@ -7,3 +7,5 @@ debate_log.txt
 *.txt
 target
 tst
+clean
+run
